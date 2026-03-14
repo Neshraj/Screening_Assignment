@@ -13,11 +13,11 @@ import { loadFavourites, saveFavourites } from './utils/localStorage';
 import { DEFAULT_LIMIT } from './constants/api';
 
 // Components
-import Header       from './components/Header/Header';
-import Gallery      from './components/Gallery/Gallery';
-import Spinner      from './components/Spinner/Spinner';
-import ErrorMessage from './components/ErrorMessage/ErrorMessage';
-import EmptyState   from './components/EmptyState/EmptyState';
+import Header       from './components/Header';
+import Gallery      from './components/Gallery';
+import Spinner      from './components/Spinner';
+import ErrorMessage from './components/ErrorMessage';
+import EmptyState   from './components/EmptyState';
 
 
 export default function App() {

@@ -1,4 +1,4 @@
-import PhotoCard from '../PhotoCard/PhotoCard';
+import PhotoCard from './PhotoCard';
 export default function Gallery({ photos, favourites, onToggleFavourite }) {
   return (
     <section aria-label="Photo gallery">

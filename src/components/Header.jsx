@@ -1,4 +1,4 @@
-import { LIMIT_OPTIONS } from '../../constants/api';
+import { LIMIT_OPTIONS } from '../constants/api';
 
 export default function Header({ favouriteCount, limit, onLimitChange, searchValue, onSearchChange }) {
   return (
